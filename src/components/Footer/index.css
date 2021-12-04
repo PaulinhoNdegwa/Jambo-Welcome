@@ -56,3 +56,32 @@
     margin: 20px;
     color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+    .upper-footer {
+        padding: 0;
+    }
+    .links {
+        margin: 10px;
+        /* width: ; */
+    }
+    .link {
+        font-size: 12px;
+    }
+    .lower-footer {
+        padding: 0;
+    }
+    .jambo-logo {
+        width: 80px;
+    }
+    .jambo span {
+        font-size: 12px;
+    }
+    .social-logo {
+        margin: 10px;
+    }
+}

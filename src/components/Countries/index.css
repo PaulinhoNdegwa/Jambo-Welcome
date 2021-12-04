@@ -21,3 +21,16 @@
     width: 120px;
     margin: 20px;
 }
+@media screen and (max-width: 500px) {
+    .countries {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .countries-title {
+        font-size: 15px;
+    }
+    .flag {
+        width: 95px;
+        height: 70px;
+    }
+}

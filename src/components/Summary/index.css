@@ -6,7 +6,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.summary h1 {
+.summary-title {
     color: #53C0FF;
     margin: 0;
     background: #034080;
@@ -19,7 +19,7 @@
     margin: 30px auto;
 }
 .statistics {
-    width: 1000px;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,6 +33,7 @@
 }
 .stat h1 {
     font-size: 36px;
+    color: #53C0FF;
 }
 .stat p {
     font-size: 18px;
@@ -53,4 +54,34 @@
     background: #034080;
     color: white;
     border: 1px #fff solid;
+}
+@media screen and (max-width: 500px)  {
+    .summary {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .summary-title {
+        font-size: 17px;
+    }
+    .summary hr {
+        margin: 20px auto;
+    }
+    .statistics {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .stat {
+        margin: 10px;
+    }
+    .stat h1 {
+        font-size: 22px;
+    }
+    .stat p {
+        font-size: 14px;
+    }
+    .btn-more {
+        padding: 7px 12px;
+        font-size: 12px;
+        border-radius: 3px;
+    }
 }

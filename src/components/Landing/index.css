@@ -1,16 +1,17 @@
 .landing {
-    width: 100%;
-    height: 725px;
+    height: auto;
     background: transparent url('../../assets/woman-01.png');
     background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top: 180px;
+    padding-left: 40px;
+    padding-right: 80px;
 }
 .intro {
-    margin-top: 180px;
-    margin-left: 40px;
     padding: 20px;
     color: #FFFFFF;
     width: 500px;
@@ -30,15 +31,13 @@
 }
 
 .bill-payments {
-    margin-top: 180px;
     background: #00000029 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 14px #00000029;
     border-radius: 15px;
     opacity: 0.8;
     border: 1px #FFFFFF solid;
     height: 300px;
-    margin-right: 80px;
-    width: 480px;
+    width: 400px;
     text-align: center;
     padding: 20px 10px 60px 10px;
 }
@@ -58,8 +57,8 @@
     flex-wrap: wrap;
 }
 .payment-logo {
-    width: 95px;
-    height: 95px;
+    width: 80px;
+    height: 80px;
     margin: 20px;
     text-align: center;
 }
@@ -74,7 +73,7 @@
     height: 50px;
     width: 100px;
     border-radius: 5px;
-    border: 2px #FFFFFF solid;
+    border: 1px #FFFFFF solid;
     opacity: 1;
     font-size: 17px;
     font-weight: 600;
@@ -97,4 +96,48 @@
     background-color: transparent;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .landing {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .intro {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .introduction {
+        font-size: 20px;
+    }
+    .intro-desc {
+        font-size: 16px;
+    }
+    .bill-payments {
+        width: 87%;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px 5px 30px 5px;
+        margin-top: 20px;
+    }
+    .action-button {
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .action-button.signup {
+        margin-right: 10px;
+    }
+    .payments-title {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .payment-logo {
+        width: 80px;
+        height: 60px;
+        margin: 10px;
+    }
 }

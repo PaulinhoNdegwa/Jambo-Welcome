@@ -3,7 +3,7 @@ import './index.css';
 const Summary = () => {
     return ( 
         <div className="summary">
-            <h1>Trusted and Secure</h1>
+            <h1 className="summary-title">Trusted and Secure</h1>
             <hr className="summary-divider"/>
             <div className="statistics">
                 <div className="stat">

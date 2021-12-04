@@ -13,7 +13,7 @@
 .our-partners {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 20px auto;
     width: 800px;
@@ -23,4 +23,23 @@
     height: 75px;
     margin: 20px 40px;
     object-fit: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .partners {
+        padding: 20px;
+
+    }
+    .partners>h2 {
+        font-size: 17px;
+    }
+    .our-partners {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .partner-logo {
+        width: 90px;
+        height: 65px;
+        margin: 15px;
+    }
 }
