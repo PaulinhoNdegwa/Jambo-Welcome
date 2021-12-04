@@ -1,0 +1,58 @@
+.footer {
+    background: #06264B 0% 0% no-repeat padding-box;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-top: 1px #fff solid;
+}
+.upper-footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 10px 20px;
+    width: 200px;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.lower-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 30px;
+    color: #fff;
+}
+.jambo {
+    display: flex;
+    align-items: center;
+}
+.jambo-logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+}
+.jambo-logo span {
+    font-size: 18px;
+    font-weight: 600;
+}
+.socials {
+    display: flex;
+}
+.social-logo {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    color: #fff;
+}

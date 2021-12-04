@@ -1,0 +1,32 @@
+.services {
+    text-align: center;
+    background: #011B35;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.services-title {
+    color: #53C0FF;
+    margin: 0 auto;
+    font-size: 22px
+}
+.services hr {
+    color: #53C0FF;
+    width: 150px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    height: 260px;
+    width: 380px;
+    object-fit: cover;
+    margin: 40px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.services.pay-bill {
+    height: 350px;
+}

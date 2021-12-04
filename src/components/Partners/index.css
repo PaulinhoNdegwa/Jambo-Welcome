@@ -1,0 +1,26 @@
+.partners {
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.partners>h2{
+    text-transform: uppercase;
+    color: #6A6A6A;
+    font-size: 22px;
+    margin: 0 auto;
+}
+.our-partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 800px;
+}
+.partner-logo {
+    width: 100px;
+    height: 75px;
+    margin: 20px 40px;
+    object-fit: contain;
+}

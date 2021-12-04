@@ -1,0 +1,56 @@
+.summary {
+    background: #034080;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.summary h1 {
+    color: #53C0FF;
+    margin: 0;
+    background: #034080;
+    font-weight: 300px !important;
+    font-size: 25px;
+}
+.summary hr {
+    color: #53C0FF;
+    width: 150px;
+    margin: 30px auto;
+}
+.statistics {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.stat {
+    width: 250px;
+    margin: 30px;
+}
+.stat h1 {
+    font-size: 36px;
+}
+.stat p {
+    font-size: 18px;
+}
+
+.btn-more {
+    padding: 10px 20px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border: 1px #fff solid;
+}
+.btn-more:hover {
+    cursor: pointer;
+    background: #034080;
+    color: white;
+    border: 1px #fff solid;
+}

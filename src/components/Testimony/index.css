@@ -1,0 +1,28 @@
+.testimony {
+    background: #06264B 0% 0% no-repeat padding-box;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.testimony .testimony-images {
+    width: 400px;
+    margin: 20px auto;
+}
+.small-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* border: 1px #fff solid; */
+    margin: 0 10px;
+}
+.large-avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px #fff solid;
+}
+.testimony-images p {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
