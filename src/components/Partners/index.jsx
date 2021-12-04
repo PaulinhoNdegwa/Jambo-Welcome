@@ -10,7 +10,6 @@ import Tatu from '../../assets/Group 4480.png';
 import KenyaPower from '../../assets/Group 4479.png';
 import Posta from '../../assets/Group 4478.png';
 import CreditBank from '../../assets/Credit-Bank.png';
-import { ReactComponent as InM } from '../../assets/Group 116.svg';
 
 import './index.css';
 

@@ -2,16 +2,18 @@
     height: auto;
     background: transparent url('../../assets/woman-01.png');
     background-size: cover;
+}
+.landing-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 50px;
-    padding-top: 180px;
     padding-left: 40px;
     padding-right: 80px;
 }
 .intro {
+    margin-top: 180px;
     padding: 20px;
     color: #FFFFFF;
     width: 500px;
@@ -31,6 +33,7 @@
 }
 
 .bill-payments {
+    margin-top: 180px;
     background: #00000029 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 14px #00000029;
     border-radius: 15px;
@@ -99,7 +102,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .landing {
+    .landing-content {
         width: 100%;
         padding: 30px 0px;
     }

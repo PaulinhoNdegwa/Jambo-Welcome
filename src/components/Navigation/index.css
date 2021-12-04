@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    background: transparent;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px;
+    height: 80px;
+}
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 85px;
+    height: 85px;
+}
+.nav-options {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.mobile-option {
+display: none;
+}
+.option a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    letter-spacing: -0.45px;
+    font-weight: 500;
+    padding: 9px 16px;
+    border-radius: 3px;
+}
+
+.option :hover {
+    background: #1780FA;
+}
+.option.thin a {
+    font-weight: 200 !important;
+}
+.option.thin:hover {
+    background: transparent !important;
+    color: #0454aa !important;
+}
+.signin-up {
+    list-style-type: none;
+}
+.signup-btn {
+    padding: 10px 20px;
+    height: 2.4rem;
+    border-radius: 20px;
+    background: #1780FA;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px #1780FA solid;
+}
+.signup-btn:hover {
+    border: 1px #0454aa solid;
+}
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 648px) {
+.header {
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+.logo {
+    width: 95px;
+    height: 95px;
+}
+.nav-options {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+}
+.nav-options.active {
+    background: #0454aa;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    height: auto;
+}
+
+.menu-icon {
+    width: 45px;
+    height: 45px;
+    margin: 10px 20px;
+}
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 8px 0px;
+}
+.option:hover {
+    background: #0454aa;
+}
+.option a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sign-up {
+    background: #1780FA;
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    align-self: center;
+    border-radius: 3px;
+}
+
+.signin-up {
+    display: none;
+}
+.mobile-menu {
+    display: block;
+}
+.mobile-menu span {
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    font-weight: 600;
+}
+}

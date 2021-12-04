@@ -7,6 +7,7 @@ import { ReactComponent as InstagramLogo } from '../../assets/Group 4045.svg';
 import './index.css';
 
 const Footer = () => {
+    /* eslint-disable jsx-a11y/anchor-is-valid */
     return (
         <div className="footer">
             <div className="upper-footer">

@@ -9,7 +9,8 @@ const Testimony = () => {
                 <img src={Avatar} alt="Avatar" className="large-avatar" />
                 <img src={Avatar} alt="Avatar" className="small-avatar" />
                 <p>"</p>
-                <p>Great experience. Adore JamboPay Loyal, fast and secure!</p>
+                <p>Great experience. Adore JamboPay</p>
+                <p>Loyal, fast and secure!</p>
             </div>
         </div>
     );

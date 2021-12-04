@@ -6,7 +6,6 @@ import Services from "./components/Services";
 import Summary from "./components/Summary";
 import Testimony from "./components/Testimony";
 
-
 function App() {
   return (
     <div className="App">
