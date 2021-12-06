@@ -28,12 +28,13 @@
 }
 
 .stat {
-    width: 250px;
+    width: 280px;
     margin: 30px;
 }
 .stat h1 {
-    font-size: 36px;
-    color: #53C0FF;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
 }
 .stat p {
     font-size: 18px;
